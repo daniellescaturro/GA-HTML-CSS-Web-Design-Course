@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: Helvetica, san-serif;
+	color: #333333;
+	padding: 20px;
+	}
+header {
+	background-color: #38A3A5;
+	color: #ffffff;
+	padding: 20px; 
+}
+h1 {
+	padding-top: 20px;
+}
+#slogan {
+	font-style: italic;
+	padding-top: 20px;
+}
+a {
+	color: #0086B3;
+}
+nav a {
+	margin-right: 10px;
+	padding-bottom: 20px;
+	color: #ffffff; 
+}
+img {
+	width: 100%;
+}
+ul {
+	margin-left: 20px;
+}
+footer {
+	color: #2D2A8C;
+	text-align: center;
+	background-color: #cccccc;
+	padding: 15px; 
+}
