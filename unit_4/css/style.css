@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Oswald:wght@600&display=swap');
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+body{
 	font-family: 'Lato', sans-serif;
 	font-size: 16px; /*1em=16px*/
 	line-height: 1.5em;
@@ -14,36 +14,43 @@ body {
 	color: #333333;
 }
 
-header { 	
+header{ 	
 	background-color: #38A3A5;
 	color: #ffffff;
 	padding: 20px; 
 	text-align: center; 
 }
-h1 {
+
+h1{
 	font-family: 'Oswald', sans-serif;
 	padding-top: 20px;
 }
-#slogan {
-	font-family: 'Lato', sans-serif;
+
+#slogan{
 	font-style: italic;
 	font-weight: normal;
 	padding-top: 20px;
 	text-align: center; 
 }
-a {
+
+a{
 	text-decoration: none;
-	border-bottom: 1px solid #0086B3; 
 	color: #0086B3;
+	font-weight: bold; 
+	border-bottom: 1px solid #0086B3;
 	padding-bottom: 2px; 
 }
-nav {
-	padding-right: 100px;
-	text-transform: uppercase; 
-	padding-bottom: 20px;
-	color: #000000; 
+
+nav a{
+	color: #ffffff;
+	text-transform: uppercase;
 	text-align: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 2px;
 }
+
 img {
 	width: 100%;
 }
@@ -51,14 +58,15 @@ p {
 	width: 30em;
 	margin: 2em auto;
 }
-ul {
-    text-align: center;
-    list-style-type: none;
-    padding-bottom: 20px;
+
+ul{
+	list-style: none;
+	text-align: center;
+	padding-bottom: 20px; 
 }
 footer {
 	color: #2D2A8C;
 	text-align: center;
 	background-color: #cccccc;
-	padding: 15px; 
+	padding: 10px; 
 }
