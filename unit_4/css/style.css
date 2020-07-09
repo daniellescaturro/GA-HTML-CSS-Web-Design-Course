@@ -32,12 +32,16 @@ h1 {
 	text-align: center; 
 }
 a {
+	text-decoration: none;
+	border-bottom: 1px solid #0086B3; 
 	color: #0086B3;
+	padding-bottom: 2px; 
 }
-nav a {
-	margin-right: 10px;
+nav {
+	padding-right: 100px;
+	text-transform: uppercase; 
 	padding-bottom: 20px;
-	color: #ffffff; 
+	color: #000000; 
 	text-align: right;
 }
 img {
