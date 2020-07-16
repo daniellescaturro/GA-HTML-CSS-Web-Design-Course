@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Oswald:wght@600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px; /*1em=20px*/
+	line-height: 1.5em;
+	position: relative;
+	color: #333333;
+}
+
+header {
+    background-color: #38A3A5;
+    padding: 20px;
+    color: 333333;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+}
+
+#slogan {
+	padding-top: 20px;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+a{
+	text-decoration: none;
+	color: #0086B3;
+	font-weight: bold; 
+	border-bottom: 1px solid #0086B3;
+}
+
+nav {
+	background-color: #016b73;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear:both;
+}
+
+nav a {
+	color: #ffffff;
+	text-transform: uppercase;
+	border-bottom: none;
+	padding: 10px;
+	display: block;
+	float: left;
+	width: 180px;
+}
+
+
+nav a:hover {
+	background-color: #BF8B5E;
+}
+
+img {
+	width: 100%;
+}
+
+#two_column {
+   margin: 40px;
+   padding-left: 60px;
+   padding-right: 60px;
+}
+
+#left {
+   float: left;
+   width: 45%;
+}
+
+#right {
+    float: right;
+    width: 45%;   
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+footer {
+	background-color: #F7D1A2;
+	text-align: center;
+	padding: 10px;
+}
