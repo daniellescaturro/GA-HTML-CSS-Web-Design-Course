@@ -14,10 +14,24 @@ body{
 	color: #333333;
 }
 
-header{ 	
-	background-color: #38A3A5;
+nav{
+	background color: #E8C66A;
+}
+
+nav a{
 	color: #ffffff;
-	padding: 20px; 
+	text-transform: uppercase;
+	text-align: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 2px;
+}
+header{ 	
+	background-color: #FFED74;
+	color: #ffffff;
+	padding: 20px;
+	border: 1px black solid; 
 	text-align: center; 
 }
 
@@ -33,28 +47,15 @@ h1{
 	text-align: center; 
 }
 
-a{
-	text-decoration: none;
-	color: #0086B3;
-	font-weight: bold; 
-	border-bottom: 1px solid #0086B3;
-	padding-bottom: 2px; 
-}
-
-nav a{
-	color: #ffffff;
-	text-transform: uppercase;
-	text-align: right;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-bottom: 1px solid #ffffff;
-	padding-bottom: 2px;
-}
-
-img {
+img{
 	width: 100%;
 }
-p {
+
+.introduction{
+	background-color: #E89C6C;
+}
+
+p{
 	width: 30em;
 	margin: 2em auto;
 }
@@ -64,9 +65,17 @@ ul{
 	text-align: center;
 	padding-bottom: 20px; 
 }
-footer {
-	color: #2D2A8C;
+footer{
+	color: #FF957E;
 	text-align: center;
 	background-color: #cccccc;
 	padding: 10px; 
+}
+
+a{
+	text-decoration: none;
+	color: #0086B3;
+	font-weight: bold; 
+	border-bottom: 1px solid #0086B3;
+	padding-bottom: 2px;
 }

@@ -59,8 +59,7 @@ nav a {
 	text-transform: uppercase;
 	border-bottom: none;
 	padding: 10px;
-	display: block;
-	float: left;
+	display: inline-block;
 	width: 180px;
 }
 
