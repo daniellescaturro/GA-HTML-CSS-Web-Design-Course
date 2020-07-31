@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@400;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins', serif;
+	font-size: 20px; /*1em=20px*/
+	line-height: 1.5em;
+	position: relative;
+	color: #333333;
+}
+
+header {
+    padding: 2%;
+    text-align: center;
+    background: #6B4C7F;
+}
+
+h1 {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 3.0em;
+	padding: 2%;
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #0066cc;
+	font-weight: bold; 
+	border-bottom: 1px solid #0066cc;
+}
+
+nav {
+	background-color: #5C257F;
+	text-align: center;
+	margin: 0 auto;
+}
+
+nav a {
+	color: #ffffff;
+	text-transform: uppercase;
+	border-bottom: none;
+	padding: 1%;
+	display: inline-block;
+	width: 14%;
+}
+
+
+nav a:hover {
+	background-color: #808080;
+}
+
+img {
+	border-radius: 50%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear:both;
+}
+
+#two_column {
+   margin: 3%;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+#left {
+   float: left;
+   width: 45%;
+   text-align: center;
+
+}
+
+#right {
+    float: right;
+    width: 45%;
+    text-align: left;
+ }
+
+footer {
+	background-color: #D3d3d3;
+	text-align: center;
+	padding: 1%;
+}
+
+@media only screen and (max-width: 1100px) {
+	#left, #right {
+	float: none;
+	width: auto;
+	}
+
+	#left {
+	margin-bottom: 20px;
+	}
+
+	h1 {
+	font-size: 2.5em;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 16px;
+	}
+
+	h1 {
+		font-size: 2.25em;
+		padding: 5%;
+	}
+}
+
+@media only screen and (max-width: 396px) {
+	body {
+		font-size: 14px;
+	}
+
+	h1 {
+		font-size: 1.25em;
+		padding: 5%;
+	}
+}
